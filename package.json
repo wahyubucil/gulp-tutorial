@@ -1,0 +1,23 @@
+{
+  "name": "gulp-tutorial",
+  "version": "1.0.0",
+  "description": "Learn how to automate build production assets with Gulp on Website Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahyubucil/gulp-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahyubucil/gulp-tutorial/issues"
+  },
+  "homepage": "https://github.com/wahyubucil/gulp-tutorial#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minifier": "^1.2.2"
+  }
+}
