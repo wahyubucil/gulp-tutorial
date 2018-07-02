@@ -21,3 +21,5 @@ gulp.task('images', function() {
         .pipe(imagemin())
         .pipe(gulp.dest('dist/img/'));
 });
+
+gulp.task('default', [ 'minify', 'images' ]);
