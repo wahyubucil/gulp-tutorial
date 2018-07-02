@@ -1,3 +1,41 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+#main-hero {
+    background: url(../img/beautiful-beach.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+}
+
+.main-hero__text {
+    align-items: center;
+    align-content: center;
+    background: rgba(0, 0, 0, .5);
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.main-hero__text h1 {
+    font-size: 3rem;
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+.btn {
+    background: #0288D1;
+    color: #ffffff;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #01579B;
+}
