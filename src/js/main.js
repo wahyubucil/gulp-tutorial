@@ -9,3 +9,15 @@ mainHeroBtn.addEventListener('click', function() {
         mainHeroTitle.textContent = 'Awesome';
     }
 });
+
+var descriptionContentBtn = document.querySelector('.description-content__btn');
+var descriptionContentTitle = document.querySelector('.description-content__title span');
+
+descriptionContentBtn.addEventListener('click', function() {
+    var descriptionContentTitleText = descriptionContentTitle.textContent;
+    if (descriptionContentTitleText == 'Gorgeous') {
+        descriptionContentTitle.textContent = 'Beautiful';
+    } else {
+        descriptionContentTitle.textContent = 'Gorgeous';
+    }
+});
