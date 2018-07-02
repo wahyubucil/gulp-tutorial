@@ -73,3 +73,12 @@ body {
 .description-content__text a {
     display: inline-block;
 }
+
+#footer {
+    margin: 16px 0;
+    text-align: center;
+}
+
+#footer a {
+    color: #555555;
+}
