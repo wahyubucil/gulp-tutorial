@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var minify = require('gulp-minifier');
+var imagemin = require('gulp-imagemin');
 
 gulp.task('minify', function() {
     return gulp.src('src/**/*').pipe(minify({
@@ -13,4 +14,10 @@ gulp.task('minify', function() {
         },
         minifyCSS: true
     })).pipe(gulp.dest('dist/'));
+});
+
+gulp.task('images', function() {
+    return gulp.src('src/img/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('dist/img/'));
 });
